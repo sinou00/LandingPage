@@ -1,0 +1,199 @@
+.body {
+
+    background-color: #D9D9D9;
+}
+
+
+.pie-chart {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.segment {
+    position: absolute;
+    width: 100%; /* Adjusted width to account for border thickness */
+    height: 100%;
+    border-radius: 50%;
+    border-width: 10px; /* Increased thickness */
+    border: 10px solid transparent; /* Increase thickness as needed */
+}
+
+.segment:nth-child(1) {
+    border-top: 10px solid #FF7417; /* First color */
+    transform: rotate(0deg);
+}
+
+.segment:nth-child(2) {
+    border-top: 10px solid #41FC00; /* Second color */
+    transform: rotate(90deg);
+}
+
+.segment:nth-child(3) {
+    border-top: 10px solid #FFC0CB; /* Third color */
+    transform: rotate(180deg);
+}
+
+.segment:nth-child(4) {
+    border-top: 10px solid #F0E70A; 
+    transform: rotate(270deg);
+} 
+
+.label {
+    position: absolute;
+    left: 55%;
+    top:55%;
+    font-family: Jura;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: semi-bold;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+
+.Component2 {
+     left: 517px; 
+     top: 235px; 
+     position: absolute; 
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: center; 
+     gap: 44px; 
+     display: inline-flex"
+}
+
+.TrackYourEmotionsWithAi {
+
+    width: 725px; 
+    height: 152px; 
+    color: black; 
+    font-size: 64px; 
+    font-family: Jura; 
+    font-weight: 700; 
+    word-wrap: break-word"
+}
+
+.GetNotifiedWhenTheAppIsLaunched {
+
+  width: 591px; 
+  height: 152px; 
+  text-align: center; 
+  color: black; 
+  font-size: 48px; 
+  font-family: Jura; 
+  font-weight: 500; 
+  word-wrap: break-word
+
+}
+
+
+.Component3 {
+    width: 767.67px;
+    height: 82px; 
+    left: 466px; 
+    top: 633px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    border: 0.50px black solid
+}
+
+
+
+.EmailAdress {
+    width: 288px; 
+    height: 38px; 
+    left: 80px; 
+    top: 22px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Jura; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    border: none; 
+    outline: none;
+    
+  
+}
+
+.EmailInput {
+
+    width: 400px; 
+    height: 38px; 
+    left: 30px; 
+    top: 22px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Jura; 
+    font-weight: 400; 
+    border: none; 
+    outline: none;
+
+  
+}
+
+.Rectangle46 {
+    width: 302.67px;
+    height: 64px;
+    left: 453px;
+    top: 9px;
+    position: absolute;
+    background: rgba(240.39, 231.18, 10.02, 0.69);
+    border-radius: 20px;
+    border: 2px black solid;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; 
+
+}
+
+
+
+.JoinOurWaitlist {
+    width: 244.08px;
+    height: 30.63px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Jura;
+    font-weight: 700;
+    word-wrap: break-word;
+    align-items: center; /* Center text and icon vertically */
+  }
+
+.JoinOurWaitlist i {
+     /* Add some space between text and icon */
+    position: absolute;
+    left: 100%; /* Adjust the position of the arrow */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  .custom-image {
+    position: relative; /* Example position */
+    width: 200px; /* Example width */
+    height: auto; /* Example height */
+    left: 50px; /* Example left position */
+    top: 50px; /* Example top position */
+    border-color: #41FC00;
+    /* Add any other styles you want to apply */
+}
+
+
+
+
+
+
+

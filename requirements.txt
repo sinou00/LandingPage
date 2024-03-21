@@ -1,0 +1,4 @@
+FLASK
+pymango
+Flask-PyMongo
+dnspython

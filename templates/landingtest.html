@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pie Chart</title>
+<link rel="stylesheet" href="/static/landingtest.css"> <!-- Your custom CSS file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    
+
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Centered Image" class="centered-image">
+    </div>
+
+    <!-- pie-chart  -->
+    <div class="baguel-container">
+        <img src="{{ url_for('static', filename='images/baguel.png') }}" alt="Baguel Left" class="baguel-left">
+    </div>
+
+    <!-- Center text  -->
+
+  <div class="Component2">
+    <div class="TrackYourEmotionsWithAi">
+        <span>&nbsp;</span>Track your emotions<br/>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>with AI<br/>
+    </div>
+    <div class="GetNotifiedWhenTheAppIsLaunched">
+        <br/> Get notified when the app<br/>
+        <span>&nbsp;&nbsp;&nbsp;</span>is launched<br/>
+    </div>
+  </div>
+
+
+   <!-- Join waitlist  -->
+
+   <div class="Component3">
+    <form action="/join_waitlist" method="post">
+        <div class="EmalAdress">
+            <input type="text" name="email" class="EmailInput" placeholder="Email adress">
+        </div>
+        <button  type="submit" class="Rectangle46" >
+            <div class="JoinOurWaitlist"> Join our Waitlist <i class="fas fa-arrow-right"></i></div>
+        </button>
+    </form>
+  </div>
+
+  <!-- Bottom page  -->
+
+    <div class="bottom-container">
+        <img src="{{ url_for('static', filename='images/bottom.png') }}"alt="Baguel Left" class="bottom-bottom">
+    </div>
+
+
+
+</html>
+

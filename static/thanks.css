@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set full viewport height */
+    overflow: hidden; /* Prevent vertical scrollbar */
+   
+    background-size:cover; /* Adjusts the size of the background image to cover the entire body */
+    background-position: center;
+    background-color: rgba(217, 217, 217, 0.29) ;
+    align-content: center;
+  }
+
+  .thanks-container {
+    position: relative;
+    text-align: center;
+    height: 100%; /* Set container height to match viewport height */
+  }
+
+  .thanks-image {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%; /* Ensure image doesn't exceed viewport width */
+    height: auto;
+
+  
+
+
+  }
