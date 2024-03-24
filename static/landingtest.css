@@ -25,30 +25,30 @@ body {
 
   
  
-  /* iphone SE */
+      /* iphone SE */
 
-    @media (max-width: 375px) {
-      max-width: 70%;
-      left:50%;
-      top: 10%;
-  }
+        @media (max-width: 376px) {
+          max-width: 50%;
+          left:50%;
+          top: 10%;
+      }
 
 
-   /* iphone 14 pro */
+        /* iphone 14 pro */
 
-   @media (min-width:390px) and (max-width: 435px) {
-    max-width: 70%;
-    left:50%;
-    top: 15%;
-}
+        @media (min-width:390px) and (max-width: 435px) {
+        max-width: 70%;
+        left:50%;
+        top: 15%;
+      }
 
-  /* Ipad pro */
+      /* Ipad pro */
 
-  @media (min-width:768px) and (max-width: 1024px) {
-    max-width: 45%;
-    left:55%;
-    top: 10%;
-}
+      @media (min-width:768px) and (max-width: 1024px) {
+        max-width: 45%;
+        left:55%;
+        top: 10%;
+      }
 
   }
 
@@ -72,7 +72,7 @@ body {
   
     /* iphone SE */
 
-    @media (max-width: 375px) {
+    @media (max-width: 376px) {
       max-width: 40%;
       max-height: 40%;
       top: 5%;
@@ -120,6 +120,15 @@ body {
       top: 30%;
       
   }
+
+      /* iphone 14 pro */
+
+      @media (min-width:390px) and (max-width: 435px) {
+
+        left:15%;
+        
+
+    }
 
       /* Ipad mini*/
 
@@ -172,6 +181,7 @@ body {
        @media (min-width:390px) and (max-width: 435px) {
 
         font-size: 32px;
+        
 
     }
 
@@ -231,6 +241,15 @@ body {
       font-size: 42px;
    }
 
+    /* Ipad air*/
+
+    @media (min-width:800px) and (max-width: 1024px) {
+
+      font-size: 12px;
+      left:10%;
+      
+    }
+
       /* macbook pro */
       @media (min-width:1025px) and (max-width:1440px) {
     
@@ -282,7 +301,7 @@ body {
     left: 25%;
     width: 50%;
     height: 10%;
-    top: 70%;
+    top: 75%;
  }
 
 
@@ -351,6 +370,7 @@ body {
     
       width: 45%;
       left: 52%;
+     
       
    }
 }
@@ -446,6 +466,7 @@ body {
   height: 80%;
   top:22%;
   right: 53%;
+  
 
 
    /* iphone SE */
@@ -460,6 +481,12 @@ body {
    /* iphone 14 pro */
 
    @media (min-width:390px) and (max-width: 435px) {
+
+    max-width: 100%;
+    width: 46% ;
+    right: 55%;
+   
+    
 
    
     
@@ -504,10 +531,10 @@ body {
    @media (min-width:1025px) and (max-width:1440px) {
     
     max-width: 100%;
-    width: 85%;
+    width: 89%;
     left: 0%;
     height: 100%;
-    top: 21%;
+    top: 4%;
     
  }
 
