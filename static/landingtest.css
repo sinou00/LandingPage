@@ -22,12 +22,13 @@ body {
     transform: translateX(-50%);
     max-width: 100%; /* Ensure image doesn't exceed viewport width */
     height: auto;
+    
 
   
  
       /* iphone SE */
 
-        @media (max-width: 376px) {
+        @media (max-width: 389px) {
           max-width: 50%;
           left:50%;
           top: 10%;
@@ -72,7 +73,7 @@ body {
   
     /* iphone SE */
 
-    @media (max-width: 376px) {
+    @media (max-width: 389px) {
       max-width: 40%;
       max-height: 40%;
       top: 5%;
@@ -114,7 +115,7 @@ body {
 
 
       /* iphone SE */
-    @media (max-width: 375px) {
+    @media (max-width: 389px) {
     
       left:15%;
       top: 30%;
@@ -132,7 +133,7 @@ body {
 
       /* Ipad mini*/
 
-      @media (min-width:445px) and (max-width: 768px) {
+      @media (min-width:436px) and (max-width: 819px) {
 
         left:20%;
         top: 32%;
@@ -171,14 +172,16 @@ body {
 
 
       /* iphone SE */
-      @media (max-width: 375px) {
-    
+      @media (min-width:320px) and (max-width: 389px) {
+
        font-size: 32px;
+
+
     }
 
        /* iphone 14 pro */
 
-       @media (min-width:390px) and (max-width: 435px) {
+       @media (min-width:380px) and (max-width: 767px) {
 
         font-size: 32px;
         
@@ -220,7 +223,7 @@ body {
 
 
     /* iphone SE */
-    @media (max-width: 375px) {
+    @media (max-width: 389px) {
     
       font-size: 22px;
       left:10%;
@@ -241,14 +244,7 @@ body {
       font-size: 42px;
    }
 
-    /* Ipad air*/
-
-    @media (min-width:800px) and (max-width: 1024px) {
-
-      font-size: 12px;
-      left:10%;
-      
-    }
+  
 
       /* macbook pro */
       @media (min-width:1025px) and (max-width:1440px) {
@@ -355,7 +351,7 @@ body {
 
 .Rectangle46 {
   width: 50%; /* Adjust as needed */
-  height: 73%; /* Adjust as needed */
+  height: 63%; /* Adjust as needed */
   left: 48%; /* Adjust as needed */
   top: 18%; /* Adjust as needed */
   position: absolute;
