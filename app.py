@@ -32,8 +32,8 @@ if __name__ == '__main__':
     #app.run(debug=True)
 
     # for deployment with docker
-    #app.run(host="0.0.0.0",port=8080) 
+    app.run(host="0.0.0.0",port=8080) 
 
     # for deployment in heroku 
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
+    #port = int(os.environ.get("PORT", 8080))
+    #app.run(host="0.0.0.0", port=port)

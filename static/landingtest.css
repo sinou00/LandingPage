@@ -172,9 +172,9 @@ body {
 
 
       /* iphone SE */
-      @media (min-width:320px) and (max-width: 389px) {
+     @media only screen and (max-width: 375px) {
 
-       font-size: 32px;
+          font-size: 32px;
 
 
     }
@@ -201,15 +201,8 @@ body {
         font-size: 62px;
      }
 
-
-
-    
-  
-
-   
-
-
 }
+
 
 .GetNotifiedWhenTheAppIsLaunched {
  position: absolute;
